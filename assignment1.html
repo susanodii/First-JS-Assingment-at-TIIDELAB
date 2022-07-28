@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIIDELAB JS ASSIGNMENT 1</title>
+
+</head>
+<body>
+    <script>
+// Assingment One
+
+let f = "Shams";
+let b = "TIIDELAB";
+for (let num = 1; num <=200 ; num++) {
+    if (num% 6 === 0 && num % 8 ===0){
+    console.log(`${f}${b}`);
+                }
+    else if (num % 6 === 0){
+    console.log(f);
+                }
+    else if (num % 8 === 0){
+    console.log(b);
+                }
+    else {
+    console.log(num);
+                    }}
+
+
+                    
+
+
+//Assignment 2
+let size = 8;
+
+let board = "";
+
+for (let s = 0; s < size; s++) {
+  for (let o = 0; o < size; o++) {
+    if ((o + s) % 2 == 0) {
+      board += " ";
+    } else {
+      board += "#";
+    }
+  }
+  board += "\n";
+}
+
+console.log(board);
+    </script>
+
+</body>
+</html>
+
